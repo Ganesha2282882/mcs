@@ -30,6 +30,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Server
         run: |
-          wget https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/257/downloads/paper-1.17.1-257.jar -O paper.jar
+          wget https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar -O paper.jar
           java -jar paper.jar
           npx localtunnel -p 25565
